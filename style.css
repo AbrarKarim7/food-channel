@@ -47,3 +47,9 @@ p{
     background-image: url(LightOrangeBackground.jpg);
     
 }
+.align{
+    padding-left: 300px;
+}
+.center{
+    padding-left: 200px;
+}
