@@ -1,5 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -27,6 +28,7 @@ a{
 }
 p{
     color: rgb(3, 3, 85);
+    font-size: large;
     
 }
 #color{
@@ -40,19 +42,21 @@ p{
     padding: 10px 20px;
     box-shadow: 10px 10px 10px grey;
 }
-.background{
-    background-image: url(TanBackground.jpg);
+.Tan{
+    background-image: url(Blue3.jpg);
 }
 
 .align{
     padding-left: 200px;
+    padding-top: 20px;
+    background-image: url(Tan2.webp);
+   margin: 0;
 }
 .center{
-    padding-left: 200px;
+    padding-left: 50px;
+    padding-right: 100px;
 }
-#hungry{
-    padding-left: 350px;
-}
+
 .box{
 
     border: 10px solid rgb(216, 211, 211);
@@ -71,4 +75,12 @@ p{
 }
 #Right-Padding{
     padding-right: 100px;
+}
+.Rose{
+  background-image: url(Gray.jpg);
+}
+footer{
+    text-align: center;
+    background-image: url(Footer.png);
+    margin: 0;
 }
