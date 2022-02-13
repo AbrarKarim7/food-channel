@@ -1,8 +1,10 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
+
 h1{
     font-size: 30px;
+    color:rgb(83, 83, 83);
 }
 .flexibility{
     display: flex;
@@ -15,9 +17,6 @@ span{
     color: rgb(38, 202, 202);
 
 }
-h1{
-    color:grey;
-}
 a{
     color: whitesmoke;
     text-decoration: none;
@@ -27,7 +26,8 @@ a{
     box-shadow: 10px 10px 10px grey;
 }
 p{
-    color: navy;
+    color: rgb(3, 3, 85);
+    
 }
 #color{
     color: darkorange;
@@ -43,13 +43,32 @@ p{
 .background{
     background-image: url(TanBackground.jpg);
 }
-.rose{
-    background-image: url(LightOrangeBackground.jpg);
-    
-}
+
 .align{
-    padding-left: 300px;
+    padding-left: 200px;
 }
 .center{
     padding-left: 200px;
+}
+#hungry{
+    padding-left: 350px;
+}
+.box{
+
+    border: 10px solid rgb(216, 211, 211);
+    border-radius: 20px;
+    margin: 20px 50px;
+    box-shadow: 100px 100px 100px gray; 
+}
+.size{
+    width: 200px;
+    height: 200px;
+}
+#center2{
+    text-align: center justify;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+#Right-Padding{
+    padding-right: 100px;
 }
